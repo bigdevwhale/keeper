@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Keeper</string>
+    <string name="tile_label">Ship on the horizon</string>
+
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+    <string name="done">Done</string>
+    <string name="settings">Settings</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="today_lower">today</string>
+    <string name="tomorrow_lower">tomorrow</string>
+    <string name="yesterday_lower">yesterday</string>
+    <string name="in_days">in %s</string>
+    <string name="days_ago">%s ago</string>
+    <string name="minutes_n">%d min</string>
+    <string name="to_shore">Back to shore</string>
+    <string name="ship_quoted">“%s”</string>
+    <string name="quoted">“%s”</string>
+    <string name="noticing">I\'m having the thought that %s</string>
+
+    <!-- Tabs -->
+    <string name="tab_bay">Bay</string>
+    <string name="tab_log">Log</string>
+    <string name="tab_fleet">Fleet</string>
+    <string name="tab_shelf">Shelf</string>
+    <string name="sight_cd">Ship on the horizon</string>
+    <string name="night_cd">Foghorn, for a sleepless night</string>
+
+    <!-- Tonnage -->
+    <string name="t_boat">Boat</string>
+    <string name="t_schooner">Schooner</string>
+    <string name="t_frigate">Frigate</string>
+    <string name="t_galleon">Galleon</string>
+    <string name="t_boat_sub">light</string>
+    <string name="t_schooner_sub">noticeable</string>
+    <string name="t_frigate_sub">heavy</string>
+    <string name="t_galleon_sub">swamped</string>
+    <string name="after_gone">Gone</string>
+
+    <!-- Ports -->
+    <string name="port_message">A message</string>
+    <string name="port_meeting">A meeting, a call</string>
+    <string name="port_news">News</string>
+    <string name="port_night">In bed at night</string>
+    <string name="port_quiet">Out of nowhere</string>
+    <string name="port_body">Something in the body</string>
+    <string name="port_memory">A memory</string>
+    <string name="port_other">Elsewhere</string>
+
+    <!-- Fates and outcomes -->
+    <string name="fate_passed">passed under the beam</string>
+    <string name="fate_anchored">at anchor</string>
+    <string name="fate_watched">seen on the watch</string>
+    <string name="out_pending">At sea</string>
+    <string name="out_arrived">Arrived</string>
+    <string name="out_partly">In part</string>
+    <string name="out_empty">Empty</string>
+
+    <!-- Weather -->
+    <string name="wx_clear">A clear night</string>
+    <string name="wx_haze">A light haze</string>
+    <string name="wx_fog">Fog on the water</string>
+    <string name="wx_thick">Thick fog</string>
+
+    <!-- Bay -->
+    <string name="bay_today">Today\'s log</string>
+    <string name="bay_today_none">Nothing on the horizon yet today. When a thought comes, tap the lighthouse below.</string>
+    <string name="watch_eyebrow">The evening watch</string>
+    <string name="watch_before">The watch begins at %s</string>
+    <string name="watch_nothing_yet">Nothing waiting for it yet.</string>
+    <string name="watch_open">The lamp is lit: time for the watch</string>
+    <string name="watch_open_empty">The roadstead is empty and no cargo is due. A short watch.</string>
+    <string name="watch_start">Begin the watch</string>
+    <string name="watch_kept">Watch kept</string>
+    <string name="watch_kept_sub">The log is closed until tomorrow\'s watch. New ships can still be lit or anchored.</string>
+
+    <!-- Sighting -->
+    <string name="sight_title">Ship on the horizon</string>
+    <string name="sight_what">What came out of the fog?</string>
+    <string name="sight_what_hint">I\'ll be fired</string>
+    <string name="sight_which">Which ship is it?</string>
+    <string name="sight_new">New ship</string>
+    <string name="sight_likely">looks like it</string>
+    <string name="sight_name">Name it</string>
+    <string name="sight_name_sub">The name painted on its hull: a thought that keeps coming back is easier to see as a ship than as the truth.</string>
+    <string name="sight_name_hint">The Sack</string>
+    <string name="sight_from_bottle">%s is back off the shelf. That happens; it goes back in after a quiet month.</string>
+    <string name="sight_tonnage">How heavy is it?</string>
+    <string name="sight_port">Where did it sail in from?</string>
+    <string name="sight_light">Light it and let it pass</string>
+    <string name="sight_anchor_long">Anchor it until the watch</string>
+    <string name="sight_anchor">Anchor it until the watch</string>
+    <string name="crowded_title">%1$s has come in %2$s in the last hour.</string>
+    <string name="crowded_text">It\'s already on the roadstead. Lighting it again would be one more round of the same. It waits at anchor; the watch is at %s.</string>
+    <string name="crowded_text_open">It\'s already on the roadstead, and the watch is open now: look it over there.</string>
+    <string name="anchored_toast">At anchor. The watch is at %s.</string>
+    <string name="anchored_now">At anchor. The watch is open now.</string>
+
+    <!-- Passing -->
+    <string name="pass_title">Under the beam</string>
+    <string name="pass_round">%1$d / %2$d</string>
+    <string name="pass_watch">Watch it from the shore</string>
+    <string name="breath_in">Breathe in</string>
+    <string name="breath_hold">Hold</string>
+    <string name="breath_out">Breathe out</string>
+    <string name="pass_gone">Gone into the fog.</string>
+    <string name="pass_weigh">It came in as a %s. How heavy is it now?</string>
+    <string name="pass_again">Another round</string>
+    <string name="pass_anchor">To anchor</string>
+
+    <!-- Night -->
+    <string name="night_hint">Swipe down to leave</string>
+
+    <!-- Watch -->
+    <string name="watch_title">The watch</string>
+    <string name="watch_left">%s of lamp oil left</string>
+    <string name="watch_over">The watch\'s time is up. Finish your entries and close the log.</string>
+    <string name="watch_roadstead">On the roadstead</string>
+    <string name="watch_roadstead_none">No ships at anchor.</string>
+    <string name="watch_due">Cargo due</string>
+    <string name="watch_due_none">No cargo due today.</string>
+    <string name="watch_passed">Lit today</string>
+    <string name="watch_passed_lighter">%1$d of %2$d weighed again came out lighter.</string>
+    <string name="watch_finish">Close the log for today</string>
+    <string name="watch_kept_summary">%1$d ships looked over: %2$d lighter by evening, %3$d gone before the watch.</string>
+    <string name="watch_next">Next watch tomorrow at %s</string>
+    <string name="watch_before_sub">Ships wait at anchor until then. The roadstead is no place to argue with them.</string>
+    <string name="road_when">%1$s, %2$s · came in as a %3$s</string>
+    <string name="road_now">And now?</string>
+    <string name="road_gone">It left before the watch.</string>
+    <string name="road_was_now">%1$s then, %2$s now.</string>
+    <string name="road_cargo">Cargo</string>
+    <string name="road_chart">Chart</string>
+
+    <!-- Cargo -->
+    <string name="cargo_title">What is %s bringing?</string>
+    <string name="cargo_sub">Write it as a forecast that can be checked: what exactly happens, and by when. On that day the log will ask whether it came.</string>
+    <string name="cargo_hint">I\'ll be fired by the end of November</string>
+    <string name="cargo_due">Check on</string>
+    <string name="due_tomorrow">Tomorrow</string>
+    <string name="due_week">In a week</string>
+    <string name="due_month">In a month</string>
+    <string name="due_pick">Another day</string>
+    <string name="cargo_promised">written %1$s · due %2$s</string>
+    <string name="cargo_q">Did it arrive?</string>
+    <string name="cargo_coped_q">And you?</string>
+    <string name="cargo_coped">I got through it</string>
+    <string name="cargo_coping">Still dealing with it</string>
+    <string name="cargo_coped_short">got through it</string>
+    <string name="cargo_due_on">due %s</string>
+
+    <!-- Log -->
+    <string name="log_title">Ship\'s log</string>
+    <string name="log_ledger">Forecasts</string>
+    <string name="log_ledger_none">No cargo checked yet. On the watch, write down what a ship says it\'s bringing and when; on that day the log asks whether it came. Here is where the answers add up.</string>
+    <string name="log_ledger_line">Of %1$s checked, %2$d arrived.</string>
+    <string name="log_partly">in part: %d</string>
+    <string name="log_empty">empty: %d</string>
+    <string name="log_coped">got through: %1$d of %2$d</string>
+    <string name="log_at_sea">Still at sea</string>
+    <string name="log_weights">Weighed again</string>
+    <string name="log_after_beam">After the beam</string>
+    <string name="log_by_watch">By the watch</string>
+    <string name="log_lighter_of">%1$d of %2$d lighter</string>
+    <string name="log_gone_of">%1$d of %2$d gone by then</string>
+    <string name="log_weights_note">Weights: 1 boat · 2 schooner · 3 frigate · 4 galleon.</string>
+    <string name="log_entries">Entries</string>
+
+    <!-- Fleet -->
+    <string name="fleet_title">The fleet</string>
+    <string name="fleet_empty">No ships yet</string>
+    <string name="fleet_empty_sub">The first one sails in the first time you notice a thought and name it.</string>
+    <string name="fleet_line">%1$s · last %2$s</string>
+    <string name="tag_ghost">ghost %d%%</string>
+    <string name="tag_cargo">cargo %1$d/%2$d</string>
+    <string name="tag_quiet">bottle in %s</string>
+
+    <!-- Shelf -->
+    <string name="shelf_title">The shelf</string>
+    <string name="shelf_empty">A ship that hasn\'t come for thirty days goes over the horizon and ends up here, in a bottle.</string>
+    <string name="shelf_since">bottled %s</string>
+    <string name="shelf_soon">Nearly over the horizon</string>
+    <string name="shelf_soon_line">Quiet for %1$s. %2$s to go.</string>
+
+    <!-- Ship -->
+    <string name="ship_rename">Rename</string>
+    <string name="ship_merge">Same ship as…</string>
+    <string name="ship_merge_sub">%s and the one you pick are one thought: its sightings and cargo join the other ship.</string>
+    <string name="ship_delete_title">Delete %s?</string>
+    <string name="ship_delete_text">The ship, every sighting and every cargo it brought go from the log. This can\'t be undone.</string>
+    <string name="ship_bottled">In its bottle since %s</string>
+    <string name="ship_seen">First seen %1$s · last %2$s</string>
+    <string name="ship_visits">Visits</string>
+    <string name="ship_lit">Lit</string>
+    <string name="ship_cargo">Cargo</string>
+    <string name="ship_again">It\'s back</string>
+    <string name="ship_cargo_log">Cargo record</string>
+    <string name="ship_cargo_none">No forecasts written for it yet. That\'s done on the watch.</string>
+    <string name="ship_cargo_none_open">No forecasts yet. The watch is open: write one down.</string>
+    <string name="ship_chart">Chart</string>
+    <string name="chart_none">Not charted yet</string>
+    <string name="chart_no_boat">No lifeboat yet.</string>
+    <string name="ship_weather">When it comes</string>
+    <string name="ship_ports">Where it sails in from</string>
+    <string name="ship_weeks">Its size, week by week</string>
+    <string name="ship_weeks_note">Eight weeks, the latest on the right; from %1$s to %2$s.</string>
+    <string name="ship_sightings">Sightings</string>
+
+    <!-- Chart -->
+    <string name="chart_title">Chart · %s</string>
+    <string name="chart_closed">Charting is done on the watch, at %s. The lifeboat can be read at any time.</string>
+    <string name="chart_if">If</string>
+    <string name="chart_then">Then</string>
+    <string name="chart_next_q">And if it does, then what?</string>
+    <string name="chart_next_hint">What would happen next</string>
+    <string name="chart_add">Add</string>
+    <string name="chart_bottom">The bottom</string>
+    <string name="chart_boat">The lifeboat</string>
+    <string name="chart_boat_sub">What you would actually do if it came to the bottom: steps, people, numbers.</string>
+    <string name="chart_boat_hint">Savings for four months. Update the CV in one evening. Write to…</string>
+    <string name="chart_saved">Chart saved</string>
+
+    <!-- Onboarding -->
+    <string name="ob1_eyebrow">Keeper</string>
+    <string name="ob1_title">You keep the lighthouse</string>
+    <string name="ob1_text">At night, ships come out of the fog: thoughts. The keeper doesn\'t board them, chase them or try to sink them. The job is to notice, write it in the log and shine the light. Then the ship sails past.</string>
+    <string name="ob2_eyebrow">The fleet</string>
+    <string name="ob2_title">Every thought gets a ship</string>
+    <string name="ob2_text">A thought that keeps coming back gets a ship and a name. “The Sack is on the horizon again” is not the same as “I\'ll be fired”. You weigh each one: boat, schooner, frigate or galleon.</string>
+    <string name="ob3_eyebrow">The watch</string>
+    <string name="ob3_title">Ships are looked over in the evening</string>
+    <string name="ob3_text">During the day, a ship is lit and let pass, or left at anchor. Once a day, at the watch, you look the anchored ones over: weigh them again, write down what cargo they claim to bring, chart what happens if it comes. Not before.</string>
+    <string name="ob3_time">Watch at %s</string>
+    <string name="ob4_eyebrow">No consolation</string>
+    <string name="ob4_title">This lighthouse doesn\'t say “it\'ll be fine”</string>
+    <string name="ob4_text">It keeps a log instead: how many cargoes actually arrived, how much lighter a ship was by evening, how long since it last came. Ships whose forecasts keep coming to nothing turn into ghosts. Ships that stop coming end up in bottles on the shelf.</string>
+    <string name="ob4_note">Keeper is a tool built on worry postponement, defusion and checking predictions. It doesn\'t replace therapy. If thoughts are getting in the way of living, a CBT therapist can help.</string>
+    <string name="ob_done">Light the lamp</string>
+
+    <!-- Hints -->
+    <string name="hint_eyebrow">From the keeper\'s notes</string>
+    <string name="hint_ok">Understood</string>
+    <string name="hint_bay_title">The bay</string>
+    <string name="hint_bay">The fog is today\'s load: the more ships and the heavier, the thicker it gets. Lights out on the water are ships at anchor waiting for the watch. The button at the bottom is for when a new one shows.</string>
+    <string name="hint_sight_title">Log it in a line</string>
+    <string name="hint_sight">Write the thought in your own words, pick or name its ship and weigh it. Don\'t argue with it here. Then either light it and let it pass, or anchor it until the evening.</string>
+    <string name="hint_pass_title">Watch from the shore</string>
+    <string name="hint_pass">The beam keeps time for your breath: in as it turns toward you, out as it sweeps away. The ship crosses the bay with its thought beneath it. Nothing to do: just watch it go.</string>
+    <string name="hint_watch_title">The only place to look a ship over</string>
+    <string name="hint_watch">Weigh each anchored ship again: often it\'s smaller by evening. Write down its cargo as a forecast you can check, or chart where it leads. Check the cargo that\'s due. Then close the log.</string>
+    <string name="hint_log_title">Your own evidence</string>
+    <string name="hint_log">Not statistics about other people: your forecasts, and what came of them. The crates are every cargo checked: full for one that arrived, empty for one that didn\'t.</string>
+    <string name="hint_fleet_title">Ships, not facts</string>
+    <string name="hint_fleet">Every recurring thought you\'ve named. A ship whose forecasts keep coming to nothing fades into a ghost. One that stops coming for a month goes into a bottle.</string>
+    <string name="hint_shelf_title">Ships in bottles</string>
+    <string name="hint_shelf">A ship quiet for thirty days is over the horizon. It isn\'t forbidden from coming back: if it does, it simply sails off the shelf again.</string>
+    <string name="hint_ship_title">Its page in the log</string>
+    <string name="hint_ship">When it comes, where it sails in from, whether it\'s getting smaller, and what its cargo has really been.</string>
+    <string name="hint_chart_title">Sound it to the bottom</string>
+    <string name="hint_chart">“And if it does, then what?”, again and again, until there\'s nowhere further down. At the bottom, the lifeboat: what you would actually do. Usually the bottom turns out to have a floor.</string>
+
+    <!-- Settings -->
+    <string name="set_watch">The watch</string>
+    <string name="set_watch_at">The watch begins</string>
+    <string name="set_watch_len">How long it lasts</string>
+    <string name="set_remind">A note at watch time</string>
+    <string name="set_remind_sub">Only when there\'s a ship at anchor or a cargo due.</string>
+    <string name="set_beam">The beam</string>
+    <string name="set_breath">Breathing rhythm, seconds</string>
+    <string name="breath_calm">In for 4, out for 6: a longer out-breath settles.</string>
+    <string name="breath_square">In 4, hold 4, out 4: the square.</string>
+    <string name="breath_slow">In 4, hold 7, out 8: slow, for the night.</string>
+    <string name="set_haptics">A buzz as the beam comes round</string>
+    <string name="set_haptics_sub">So the breath can follow it with your eyes closed.</string>
+    <string name="set_tile">“Ship on the horizon” can be added to the quick settings, and a long press on the icon offers the foghorn.</string>
+    <string name="set_language">Language</string>
+    <string name="set_lang_system">System</string>
+    <string name="set_data">Your log</string>
+    <string name="backup_export">Save a backup</string>
+    <string name="backup_export_sub">Everything, in one file</string>
+    <string name="backup_import">Restore a backup</string>
+    <string name="backup_import_sub">Replaces what\'s here</string>
+    <string name="backup_import_title">Restore from the backup?</string>
+    <string name="backup_import_text">Every ship, sighting and cargo here is replaced by the ones in the file.</string>
+    <string name="backup_import_go">Restore</string>
+    <string name="backup_done">Backup saved</string>
+    <string name="backup_failed">Couldn\'t save the backup</string>
+    <string name="backup_restored">Log restored</string>
+    <string name="backup_bad">That isn\'t a Keeper backup</string>
+    <string name="set_hints">Show the keeper\'s notes again</string>
+    <string name="set_hints_sub">The first-visit explanations</string>
+    <string name="set_hints_done">The notes are back</string>
+    <string name="set_about">About</string>
+    <string name="set_method">Keeper puts four well-tested ideas from CBT and ACT on the water: naming a thought to step back from it (defusion), postponing worry to a set time each day, checking forecasts against what happened, and decatastrophising down to a plan.</string>
+    <string name="set_not_therapy">It doesn\'t replace therapy. If thoughts are getting in the way of work, sleep or people, a CBT therapist can help. With intrusive thoughts and checking, ask about exposure and response prevention.</string>
+    <string name="set_privacy">No account, no cloud, no analytics, no internet permission. Everything stays on the phone.</string>
+
+    <!-- Notifications and shortcuts -->
+    <string name="channel_watch">The evening watch</string>
+    <string name="channel_watch_desc">A note at watch time, only when there\'s a ship at anchor or a cargo due.</string>
+    <string name="note_watch_title">The lamp is lit: time for the watch</string>
+    <string name="shortcut_sight">On the horizon</string>
+    <string name="shortcut_sight_long">A ship on the horizon</string>
+    <string name="shortcut_night">Foghorn</string>
+    <string name="shortcut_night_long">Foghorn: the beam and the breath</string>
+
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="times">
+        <item quantity="one">%d time</item>
+        <item quantity="other">%d times</item>
+    </plurals>
+    <plurals name="visits">
+        <item quantity="one">%d visit</item>
+        <item quantity="other">%d visits</item>
+    </plurals>
+    <plurals name="visits_week">
+        <item quantity="one">%d visit this week</item>
+        <item quantity="other">%d visits this week</item>
+    </plurals>
+    <plurals name="ships">
+        <item quantity="one">%d ship sailing</item>
+        <item quantity="other">%d ships sailing</item>
+    </plurals>
+    <plurals name="bottles">
+        <item quantity="one">%d ship in a bottle</item>
+        <item quantity="other">%d ships in bottles</item>
+    </plurals>
+    <plurals name="at_anchor">
+        <item quantity="one">%d ship at anchor</item>
+        <item quantity="other">%d ships at anchor</item>
+    </plurals>
+    <plurals name="cargo_due">
+        <item quantity="one">%d cargo due</item>
+        <item quantity="other">%d cargoes due</item>
+    </plurals>
+    <plurals name="cargoes">
+        <item quantity="one">%d cargo</item>
+        <item quantity="other">%d cargoes</item>
+    </plurals>
+    <plurals name="passed_today">
+        <item quantity="one">%d ship lit and let pass today.</item>
+        <item quantity="other">%d ships lit and let pass today.</item>
+    </plurals>
+    <plurals name="shoals">
+        <item quantity="one">%d sounding to the bottom</item>
+        <item quantity="other">%d soundings to the bottom</item>
+    </plurals>
+    <plurals name="note_anchored">
+        <item quantity="one">%d ship at anchor</item>
+        <item quantity="other">%d ships at anchor</item>
+    </plurals>
+    <plurals name="note_due">
+        <item quantity="one">%d cargo to check</item>
+        <item quantity="other">%d cargoes to check</item>
+    </plurals>
+</resources>

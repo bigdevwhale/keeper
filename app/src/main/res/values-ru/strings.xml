@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Смотритель</string>
+    <string name="tile_label">Корабль на горизонте</string>
+
+    <!-- Common -->
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="next">Дальше</string>
+    <string name="back">Назад</string>
+    <string name="close">Закрыть</string>
+    <string name="done">Готово</string>
+    <string name="settings">Настройки</string>
+    <string name="today">Сегодня</string>
+    <string name="yesterday">Вчера</string>
+    <string name="today_lower">сегодня</string>
+    <string name="tomorrow_lower">завтра</string>
+    <string name="yesterday_lower">вчера</string>
+    <string name="in_days">через %s</string>
+    <string name="days_ago">%s назад</string>
+    <string name="minutes_n">%d мин</string>
+    <string name="to_shore">На берег</string>
+    <string name="ship_quoted">«%s»</string>
+    <string name="quoted">«%s»</string>
+    <string name="noticing">Мне приходит мысль, что %s</string>
+
+    <!-- Tabs -->
+    <string name="tab_bay">Бухта</string>
+    <string name="tab_log">Журнал</string>
+    <string name="tab_fleet">Флот</string>
+    <string name="tab_shelf">Полка</string>
+    <string name="sight_cd">Корабль на горизонте</string>
+    <string name="night_cd">Туманный горн — если не спится</string>
+
+    <!-- Tonnage -->
+    <string name="t_boat">Лодка</string>
+    <string name="t_schooner">Шхуна</string>
+    <string name="t_frigate">Фрегат</string>
+    <string name="t_galleon">Галеон</string>
+    <string name="t_boat_sub">легко</string>
+    <string name="t_schooner_sub">заметно</string>
+    <string name="t_frigate_sub">тяжело</string>
+    <string name="t_galleon_sub">накрыло</string>
+    <string name="after_gone">Ушёл</string>
+
+    <!-- Ports -->
+    <string name="port_message">Сообщение</string>
+    <string name="port_meeting">Встреча, созвон</string>
+    <string name="port_news">Новости</string>
+    <string name="port_night">Ночью в кровати</string>
+    <string name="port_quiet">На ровном месте</string>
+    <string name="port_body">Ощущение в теле</string>
+    <string name="port_memory">Воспоминание</string>
+    <string name="port_other">Другое</string>
+
+    <!-- Fates and outcomes -->
+    <string name="fate_passed">прошёл под лучом</string>
+    <string name="fate_anchored">на рейде</string>
+    <string name="fate_watched">осмотрен на вахте</string>
+    <string name="out_pending">В пути</string>
+    <string name="out_arrived">Прибыл</string>
+    <string name="out_partly">Отчасти</string>
+    <string name="out_empty">Пусто</string>
+
+    <!-- Weather -->
+    <string name="wx_clear">Ясная ночь</string>
+    <string name="wx_haze">Лёгкая дымка</string>
+    <string name="wx_fog">Туман на воде</string>
+    <string name="wx_thick">Густой туман</string>
+
+    <!-- Bay -->
+    <string name="bay_today">Записи за сегодня</string>
+    <string name="bay_today_none">Сегодня горизонт пока чист. Когда придёт мысль — нажми на маяк внизу.</string>
+    <string name="watch_eyebrow">Вечерняя вахта</string>
+    <string name="watch_before">Вахта в %s</string>
+    <string name="watch_nothing_yet">Пока её ничего не ждёт.</string>
+    <string name="watch_open">Маяк зажжён: время вахты</string>
+    <string name="watch_open_empty">Рейд пуст, грузов к проверке нет. Короткая вахта.</string>
+    <string name="watch_start">Заступить на вахту</string>
+    <string name="watch_kept">Вахта сдана</string>
+    <string name="watch_kept_sub">Журнал закрыт до завтрашней вахты. Новые корабли можно по-прежнему пропускать под лучом или ставить на якорь.</string>
+
+    <!-- Sighting -->
+    <string name="sight_title">Корабль на горизонте</string>
+    <string name="sight_what">Что вышло из тумана?</string>
+    <string name="sight_what_hint">Меня уволят</string>
+    <string name="sight_which">Какой это корабль?</string>
+    <string name="sight_new">Новый</string>
+    <string name="sight_likely">похоже, он</string>
+    <string name="sight_name">Имя на борту</string>
+    <string name="sight_name_sub">Мысль, которая возвращается снова и снова, легче увидеть кораблём, чем правдой.</string>
+    <string name="sight_name_hint">Увольнение</string>
+    <string name="sight_from_bottle">%s снова на воде: корабль сошёл с полки. Так бывает — после тихого месяца он вернётся в бутылку.</string>
+    <string name="sight_tonnage">Какое водоизмещение?</string>
+    <string name="sight_port">Из какого порта пришёл?</string>
+    <string name="sight_light">Посветить и пропустить</string>
+    <string name="sight_anchor_long">На рейд до вахты</string>
+    <string name="sight_anchor">На рейд до вахты</string>
+    <string name="crowded_title">%1$s: уже %2$s за последний час.</string>
+    <string name="crowded_text">Он уже на рейде. Посветить ещё раз — значит пройти по тому же кругу. Пусть ждёт на якоре: вахта в %s.</string>
+    <string name="crowded_text_open">Он уже на рейде, а вахта открыта — осмотри его там.</string>
+    <string name="anchored_toast">Встал на якорь. Вахта в %s.</string>
+    <string name="anchored_now">Встал на якорь. Вахта уже открыта.</string>
+
+    <!-- Passing -->
+    <string name="pass_title">Под лучом</string>
+    <string name="pass_round">%1$d / %2$d</string>
+    <string name="pass_watch">Смотри с берега</string>
+    <string name="breath_in">Вдох</string>
+    <string name="breath_hold">Пауза</string>
+    <string name="breath_out">Выдох</string>
+    <string name="pass_gone">Ушёл в туман.</string>
+    <string name="pass_weigh">Пришёл как %s. Сколько он весит сейчас?</string>
+    <string name="pass_again">Ещё круг</string>
+    <string name="pass_anchor">На рейд</string>
+
+    <!-- Night -->
+    <string name="night_hint">Проведи вниз, чтобы выйти</string>
+
+    <!-- Watch -->
+    <string name="watch_title">Вахта</string>
+    <string name="watch_left">Масла в лампе на %s</string>
+    <string name="watch_over">Время вахты вышло. Допиши и закрой журнал.</string>
+    <string name="watch_roadstead">На рейде</string>
+    <string name="watch_roadstead_none">На якоре никого.</string>
+    <string name="watch_due">Грузы к проверке</string>
+    <string name="watch_due_none">На сегодня грузов нет.</string>
+    <string name="watch_passed">Под лучом сегодня</string>
+    <string name="watch_passed_lighter">Из взвешенных повторно легче стали %1$d из %2$d.</string>
+    <string name="watch_finish">Сдать вахту</string>
+    <string name="watch_kept_summary">Осмотрено кораблей: %1$d. К вечеру легче стали %2$d, ушли до вахты — %3$d.</string>
+    <string name="watch_next">Следующая вахта завтра в %s</string>
+    <string name="watch_before_sub">До неё корабли ждут на якоре. Рейд — не место спорить с ними.</string>
+    <string name="road_when">%1$s, %2$s · пришёл как %3$s</string>
+    <string name="road_now">А сейчас?</string>
+    <string name="road_gone">Снялся с якоря до вахты.</string>
+    <string name="road_was_now">Тогда — %1$s, сейчас — %2$s.</string>
+    <string name="road_cargo">Груз</string>
+    <string name="road_chart">Лоция</string>
+
+    <!-- Cargo -->
+    <string name="cargo_title">Что везёт %s?</string>
+    <string name="cargo_sub">Запиши как прогноз, который можно проверить: что именно случится и к какому дню. В этот день журнал спросит, прибыл ли груз.</string>
+    <string name="cargo_hint">Меня уволят до конца ноября</string>
+    <string name="cargo_due">Проверить</string>
+    <string name="due_tomorrow">Завтра</string>
+    <string name="due_week">Через неделю</string>
+    <string name="due_month">Через месяц</string>
+    <string name="due_pick">Другой день</string>
+    <string name="cargo_promised">записан %1$s · срок %2$s</string>
+    <string name="cargo_q">Груз прибыл?</string>
+    <string name="cargo_coped_q">А ты?</string>
+    <string name="cargo_coped">Справился</string>
+    <string name="cargo_coping">Ещё разбираюсь</string>
+    <string name="cargo_coped_short">справился</string>
+    <string name="cargo_due_on">срок %s</string>
+
+    <!-- Log -->
+    <string name="log_title">Судовой журнал</string>
+    <string name="log_ledger">Прогнозы</string>
+    <string name="log_ledger_none">Грузов ещё не проверяли. На вахте запиши, что корабль обещает привезти и к какому дню, — в этот день журнал спросит, прибыл ли он. Здесь будут складываться ответы.</string>
+    <string name="log_ledger_line">Из %1$s прибыло: %2$d.</string>
+    <string name="log_partly">отчасти: %d</string>
+    <string name="log_empty">пусто: %d</string>
+    <string name="log_coped">справился: %1$d из %2$d</string>
+    <string name="log_at_sea">Ещё в пути</string>
+    <string name="log_weights">Повторное взвешивание</string>
+    <string name="log_after_beam">После луча</string>
+    <string name="log_by_watch">К вахте</string>
+    <string name="log_lighter_of">легче %1$d из %2$d</string>
+    <string name="log_gone_of">ушли к вахте: %1$d из %2$d</string>
+    <string name="log_weights_note">Вес: 1 лодка · 2 шхуна · 3 фрегат · 4 галеон.</string>
+    <string name="log_entries">Записи</string>
+
+    <!-- Fleet -->
+    <string name="fleet_title">Флот</string>
+    <string name="fleet_empty">Кораблей пока нет</string>
+    <string name="fleet_empty_sub">Первый придёт, когда ты заметишь мысль и дашь ей имя.</string>
+    <string name="fleet_line">%1$s · последний раз %2$s</string>
+    <string name="tag_ghost">призрак %d%%</string>
+    <string name="tag_cargo">груз %1$d/%2$d</string>
+    <string name="tag_quiet">в бутылку через %s</string>
+
+    <!-- Shelf -->
+    <string name="shelf_title">Полка</string>
+    <string name="shelf_empty">Корабль, который не заходил тридцать дней, уходит за горизонт и оказывается здесь — в бутылке.</string>
+    <string name="shelf_since">в бутылке с %s</string>
+    <string name="shelf_soon">Почти за горизонтом</string>
+    <string name="shelf_soon_line">Молчит %1$s. Осталось %2$s.</string>
+
+    <!-- Ship -->
+    <string name="ship_rename">Переименовать</string>
+    <string name="ship_merge">Это тот же корабль, что…</string>
+    <string name="ship_merge_sub">%s и выбранный корабль — одна и та же мысль: его заходы и грузы перейдут к выбранному.</string>
+    <string name="ship_delete_title">Удалить %s?</string>
+    <string name="ship_delete_text">Корабль, все его заходы и грузы исчезнут из журнала. Отменить нельзя.</string>
+    <string name="ship_bottled">В бутылке с %s</string>
+    <string name="ship_seen">Впервые замечен %1$s · последний раз %2$s</string>
+    <string name="ship_visits">Заходов</string>
+    <string name="ship_lit">Под лучом</string>
+    <string name="ship_cargo">Груз</string>
+    <string name="ship_again">Он снова здесь</string>
+    <string name="ship_cargo_log">Грузы</string>
+    <string name="ship_cargo_none">Прогнозов для него пока нет. Их записывают на вахте.</string>
+    <string name="ship_cargo_none_open">Прогнозов пока нет. Вахта открыта — можно записать.</string>
+    <string name="ship_chart">Лоция</string>
+    <string name="chart_none">Курс ещё не проложен</string>
+    <string name="chart_no_boat">Шлюпки пока нет.</string>
+    <string name="ship_weather">Когда приходит</string>
+    <string name="ship_ports">Из каких портов</string>
+    <string name="ship_weeks">Размер по неделям</string>
+    <string name="ship_weeks_note">Восемь недель, последняя справа; от «%1$s» до «%2$s».</string>
+    <string name="ship_sightings">Заходы</string>
+
+    <!-- Chart -->
+    <string name="chart_title">Лоция · %s</string>
+    <string name="chart_closed">Прокладывать курс — на вахте, в %s. Шлюпку можно открыть всегда.</string>
+    <string name="chart_if">Если</string>
+    <string name="chart_then">Тогда</string>
+    <string name="chart_next_q">А если да — что дальше?</string>
+    <string name="chart_next_hint">Что случится следом</string>
+    <string name="chart_add">Добавить</string>
+    <string name="chart_bottom">Дно</string>
+    <string name="chart_boat">Шлюпка</string>
+    <string name="chart_boat_sub">Что ты на самом деле сделаешь, если дойдёт до дна: шаги, люди, цифры.</string>
+    <string name="chart_boat_hint">Подушка на четыре месяца. Резюме — один вечер. Написать…</string>
+    <string name="chart_saved">Лоция сохранена</string>
+
+    <!-- Onboarding -->
+    <string name="ob1_eyebrow">Смотритель</string>
+    <string name="ob1_title">Ты — смотритель маяка</string>
+    <string name="ob1_text">Ночью из тумана выходят корабли — мысли. Смотритель не прыгает на борт, не гонится за ними и не пытается потопить. Его работа — заметить, записать в журнал и посветить. Тогда корабль проходит мимо.</string>
+    <string name="ob2_eyebrow">Флот</string>
+    <string name="ob2_title">У каждой мысли — свой корабль</string>
+    <string name="ob2_text">Мысль, которая возвращается, получает корабль и имя. «Опять „Увольнение“ на горизонте» звучит иначе, чем «меня уволят». Каждый корабль ты взвешиваешь: лодка, шхуна, фрегат или галеон.</string>
+    <string name="ob3_eyebrow">Вахта</string>
+    <string name="ob3_title">Корабли осматривают вечером</string>
+    <string name="ob3_text">Днём корабль пропускают под лучом или ставят на якорь. Раз в день, на вахте, ты осматриваешь рейд: взвешиваешь заново, записываешь, какой груз корабль обещает привезти, и прокладываешь лоцию — что будет, если да. Не раньше.</string>
+    <string name="ob3_time">Вахта в %s</string>
+    <string name="ob4_eyebrow">Без утешений</string>
+    <string name="ob4_title">Этот маяк не говорит «всё будет хорошо»</string>
+    <string name="ob4_text">Вместо этого он ведёт журнал: сколько грузов прибыло на самом деле, насколько легче корабль стал к вечеру, как давно он не заходил. Корабли, чьи прогнозы не сбываются, становятся призраками. Корабли, которые перестали заходить, оказываются в бутылках на полке.</string>
+    <string name="ob4_note">Смотритель — инструмент на основе отложенного беспокойства, когнитивного разделения и проверки прогнозов. Он не заменяет терапию. Если мысли мешают жить, поможет специалист по КПТ.</string>
+    <string name="ob_done">Зажечь маяк</string>
+
+    <!-- Hints -->
+    <string name="hint_eyebrow">Из записок смотрителя</string>
+    <string name="hint_ok">Понятно</string>
+    <string name="hint_bay_title">Бухта</string>
+    <string name="hint_bay">Туман — это нагрузка дня: чем больше кораблей и чем они тяжелее, тем он гуще. Огоньки на воде — корабли на якоре, они ждут вахты. Кнопка внизу — на случай, когда покажется новый.</string>
+    <string name="hint_sight_title">Запиши одной строкой</string>
+    <string name="hint_sight">Напиши мысль своими словами, выбери или назови корабль и взвесь его. Спорить с ним здесь не нужно. Потом — либо посвети и пропусти, либо поставь на якорь до вечера.</string>
+    <string name="hint_pass_title">Смотри с берега</string>
+    <string name="hint_pass">Луч задаёт ритм дыхания: вдох — пока он поворачивается к тебе, выдох — пока уходит. Корабль пересекает бухту, мысль идёт под ним. Делать ничего не нужно — просто смотри, как он уходит.</string>
+    <string name="hint_watch_title">Единственное место, где осматривают корабли</string>
+    <string name="hint_watch">Взвесь каждый корабль на рейде заново: к вечеру он часто меньше. Запиши его груз как прогноз, который можно проверить, или проложи лоцию. Проверь грузы, у которых настал срок. Потом сдай вахту.</string>
+    <string name="hint_log_title">Твои собственные данные</string>
+    <string name="hint_log">Не статистика про других людей, а твои прогнозы и то, чем они кончились. Ящики — это все проверенные грузы: полный — прибыл, пустой — нет.</string>
+    <string name="hint_fleet_title">Корабли, а не факты</string>
+    <string name="hint_fleet">Все повторяющиеся мысли, которым ты дал имя. Корабль, чьи прогнозы не сбываются, превращается в призрака. Корабль, который месяц не заходит, уходит в бутылку.</string>
+    <string name="hint_shelf_title">Корабли в бутылках</string>
+    <string name="hint_shelf">Корабль, молчащий тридцать дней, ушёл за горизонт. Возвращаться ему не запрещено: если придёт — просто снова сойдёт с полки.</string>
+    <string name="hint_ship_title">Его страница в журнале</string>
+    <string name="hint_ship">Когда приходит, из каких портов, становится ли меньше и какой груз он на самом деле привозил.</string>
+    <string name="hint_chart_title">Промерь до дна</string>
+    <string name="hint_chart">«А если да — что дальше?» — снова и снова, пока глубже некуда. На дне — шлюпка: что ты на самом деле сделаешь. Обычно оказывается, что у дна есть дно.</string>
+
+    <!-- Settings -->
+    <string name="set_watch">Вахта</string>
+    <string name="set_watch_at">Вахта начинается</string>
+    <string name="set_watch_len">Сколько длится</string>
+    <string name="set_remind">Напоминание о вахте</string>
+    <string name="set_remind_sub">Только если на рейде есть корабль или пора проверить груз.</string>
+    <string name="set_beam">Луч</string>
+    <string name="set_breath">Ритм дыхания, секунды</string>
+    <string name="breath_calm">Вдох 4, выдох 6: длинный выдох успокаивает.</string>
+    <string name="breath_square">Вдох 4, пауза 4, выдох 4: квадрат.</string>
+    <string name="breath_slow">Вдох 4, пауза 7, выдох 8: медленно, для ночи.</string>
+    <string name="set_haptics">Вибрация, когда луч поворачивается</string>
+    <string name="set_haptics_sub">Чтобы дышать в ритм с закрытыми глазами.</string>
+    <string name="set_tile">«Корабль на горизонте» можно добавить в шторку, а долгое нажатие на иконку открывает туманный горн.</string>
+    <string name="set_language">Язык</string>
+    <string name="set_lang_system">Как в системе</string>
+    <string name="set_data">Журнал</string>
+    <string name="backup_export">Сохранить копию</string>
+    <string name="backup_export_sub">Всё в одном файле</string>
+    <string name="backup_import">Восстановить из копии</string>
+    <string name="backup_import_sub">Заменит то, что есть</string>
+    <string name="backup_import_title">Восстановить из копии?</string>
+    <string name="backup_import_text">Все корабли, заходы и грузы здесь заменятся теми, что в файле.</string>
+    <string name="backup_import_go">Восстановить</string>
+    <string name="backup_done">Копия сохранена</string>
+    <string name="backup_failed">Не удалось сохранить копию</string>
+    <string name="backup_restored">Журнал восстановлен</string>
+    <string name="backup_bad">Это не копия Смотрителя</string>
+    <string name="set_hints">Снова показать записки смотрителя</string>
+    <string name="set_hints_sub">Пояснения при первом визите</string>
+    <string name="set_hints_done">Записки снова на месте</string>
+    <string name="set_about">О приложении</string>
+    <string name="set_method">Смотритель переносит на воду четыре проверенные идеи из КПТ и ACT: назвать мысль, чтобы отойти от неё на шаг (когнитивное разделение), отложить беспокойство на назначенное время дня, сверять прогнозы с тем, что случилось, и спускаться от катастрофы до плана.</string>
+    <string name="set_not_therapy">Он не заменяет терапию. Если мысли мешают работе, сну или людям — поможет специалист по КПТ. При навязчивых мыслях и проверках спроси про экспозицию с предотвращением реакции.</string>
+    <string name="set_privacy">Ни аккаунта, ни облака, ни аналитики, ни доступа в интернет. Всё остаётся на телефоне.</string>
+
+    <!-- Notifications and shortcuts -->
+    <string name="channel_watch">Вечерняя вахта</string>
+    <string name="channel_watch_desc">Напоминание в час вахты — только если на рейде есть корабль или пора проверить груз.</string>
+    <string name="note_watch_title">Маяк зажжён: время вахты</string>
+    <string name="shortcut_sight">На горизонте</string>
+    <string name="shortcut_sight_long">Корабль на горизонте</string>
+    <string name="shortcut_night">Туманный горн</string>
+    <string name="shortcut_night_long">Туманный горн: луч и дыхание</string>
+
+    <plurals name="days">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+        <item quantity="other">%d дня</item>
+    </plurals>
+    <plurals name="times">
+        <item quantity="one">%d раз</item>
+        <item quantity="few">%d раза</item>
+        <item quantity="many">%d раз</item>
+        <item quantity="other">%d раза</item>
+    </plurals>
+    <plurals name="visits">
+        <item quantity="one">%d заход</item>
+        <item quantity="few">%d захода</item>
+        <item quantity="many">%d заходов</item>
+        <item quantity="other">%d захода</item>
+    </plurals>
+    <plurals name="visits_week">
+        <item quantity="one">%d заход за неделю</item>
+        <item quantity="few">%d захода за неделю</item>
+        <item quantity="many">%d заходов за неделю</item>
+        <item quantity="other">%d захода за неделю</item>
+    </plurals>
+    <plurals name="ships">
+        <item quantity="one">%d корабль в плавании</item>
+        <item quantity="few">%d корабля в плавании</item>
+        <item quantity="many">%d кораблей в плавании</item>
+        <item quantity="other">%d корабля в плавании</item>
+    </plurals>
+    <plurals name="bottles">
+        <item quantity="one">%d корабль в бутылке</item>
+        <item quantity="few">%d корабля в бутылках</item>
+        <item quantity="many">%d кораблей в бутылках</item>
+        <item quantity="other">%d корабля в бутылках</item>
+    </plurals>
+    <plurals name="at_anchor">
+        <item quantity="one">%d корабль на рейде</item>
+        <item quantity="few">%d корабля на рейде</item>
+        <item quantity="many">%d кораблей на рейде</item>
+        <item quantity="other">%d корабля на рейде</item>
+    </plurals>
+    <plurals name="cargo_due">
+        <item quantity="one">%d груз к проверке</item>
+        <item quantity="few">%d груза к проверке</item>
+        <item quantity="many">%d грузов к проверке</item>
+        <item quantity="other">%d груза к проверке</item>
+    </plurals>
+    <plurals name="cargoes">
+        <item quantity="one">%d проверенного груза</item>
+        <item quantity="few">%d проверенных грузов</item>
+        <item quantity="many">%d проверенных грузов</item>
+        <item quantity="other">%d проверенного груза</item>
+    </plurals>
+    <plurals name="passed_today">
+        <item quantity="one">Сегодня под лучом прошёл %d корабль.</item>
+        <item quantity="few">Сегодня под лучом прошли %d корабля.</item>
+        <item quantity="many">Сегодня под лучом прошли %d кораблей.</item>
+        <item quantity="other">Сегодня под лучом прошли %d корабля.</item>
+    </plurals>
+    <plurals name="shoals">
+        <item quantity="one">%d промер до дна</item>
+        <item quantity="few">%d промера до дна</item>
+        <item quantity="many">%d промеров до дна</item>
+        <item quantity="other">%d промера до дна</item>
+    </plurals>
+    <plurals name="note_anchored">
+        <item quantity="one">%d корабль на рейде</item>
+        <item quantity="few">%d корабля на рейде</item>
+        <item quantity="many">%d кораблей на рейде</item>
+        <item quantity="other">%d корабля на рейде</item>
+    </plurals>
+    <plurals name="note_due">
+        <item quantity="one">%d груз к проверке</item>
+        <item quantity="few">%d груза к проверке</item>
+        <item quantity="many">%d грузов к проверке</item>
+        <item quantity="other">%d груза к проверке</item>
+    </plurals>
+</resources>
